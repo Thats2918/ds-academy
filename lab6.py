@@ -27,4 +27,6 @@ df.groupby(["Sex", "Pclass"])["Survived"].mean().plot(kind="bar", title="Surviva
 plt.tight_layout()
 plt.show()
 
+print("수정본")
+
 # plt.show()
